@@ -79,7 +79,10 @@
             Controls.Add(buttonAddTown);
             Controls.Add(textBoxTownName);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FormAddTown";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "Добавяне на град";
             ResumeLayout(false);
             PerformLayout();

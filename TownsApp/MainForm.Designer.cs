@@ -91,6 +91,7 @@
             buttonEditTown.TabIndex = 2;
             buttonEditTown.Text = "Редактиране на град";
             buttonEditTown.UseVisualStyleBackColor = true;
+            buttonEditTown.Click += buttonEditTown_Click;
             // 
             // buttonDeleteTown
             // 
@@ -101,6 +102,7 @@
             buttonDeleteTown.TabIndex = 3;
             buttonDeleteTown.Text = "Изтриване на град";
             buttonDeleteTown.UseVisualStyleBackColor = true;
+            buttonDeleteTown.Click += buttonDeleteTown_Click;
             // 
             // MainForm
             // 
